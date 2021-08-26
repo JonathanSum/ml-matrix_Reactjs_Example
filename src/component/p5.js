@@ -54,6 +54,25 @@ export default class P5 extends Component {
         p5.button.style('background-color', 'black')
         p5.button.style('color', '#bbbbbb')
         p5.button.style('border', 'none')
+
+        p5.button.mousePressed((event) => {
+            console.log("Clicked on the canvas. Event:", event)
+            mousePressed()
+        })
+
+        parent.mouseDragged = ((event) => {
+            console.log("Clicked on the canvas. Event:", event)
+            mousePressed()
+        }
+
+        )
+
+        // p5.cnv = p5.createCanvas(w, h).parent(parent);
+        p5.cnv.mousePressed((event) => {
+            console.log("Clicked on the canvas. Event:", event)
+        })
+
+
     }
     draw = p5 => {
         p5.background("black")
