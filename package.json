@@ -1,7 +1,7 @@
 {
     "name": "canvas-app",
     "version": "0.1.0",
-    "Homepage": "https://JonathanSum.github.io/ml-matrix_Reactjs_Example",
+    "homepage": "https://JonathanSum.github.io/ml-matrix_Reactjs_Example",
     "private": true,
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
