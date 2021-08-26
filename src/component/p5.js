@@ -47,8 +47,7 @@ export default class P5 extends Component {
 
         // Create reset button
         p5.button = p5.createButton('Reset')
-        console.log("button: " + p5.height - 20)
-        console.log("(p5.height - 20)")
+
 
         p5.button.position(0, p5.height - 20)
         p5.button.mousePressed(p5.reset)
