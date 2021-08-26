@@ -48,21 +48,11 @@ const draw = (ctx,) => {
 
 
 
-    const color_matrix = Matrix.ones(6, 6);
+
 
 
     // vanilla javascript 
     console.log("Starting")
-    for (var i = 0; i < 6; i++) {
-        for (var j = 0; j < 6; j++) {
-            // console.log(i + " " + j);
-            // console.log(m1.data[i][j])
-            color_matrix.data[i][j] = Math.floor(255 - 42.5 * i)
-            ctx.fillStyle = 'rgb(' + Math.floor(255 - 42.5 * i) + ', ' +
-                Math.floor(255 - 42.5 * j) + ', 0)';
-            ctx.fillRect(j * 25, i * 25, 25, 25);
-        }
-    }
 
     // ml-matrix javascript example
 
